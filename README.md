@@ -24,6 +24,8 @@ I have picked and analyzed the bikeshare dataset which composed of:
 
 Please check the inlcuded data dictionary for further information.
 
+The dashboard can be accessed from: https://dicodataanalysis-bikeshare.streamlit.app/
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 The data analysis is made inside a Jupyter notebook with Python and additional libraries (Pandas, Numpy, Seaborn, and MatPlotLib)
 
@@ -31,5 +33,6 @@ The data analysis is made inside a Jupyter notebook with Python and additional l
 
 ## Changelog
 1. 27-11-2023: Added Streamlit Construction section in notebook, added dashboard_bikeshare.py file
-2. 26-11-2023: Initial release
+   Updated both notebook and dashboard to remove pd.append
+3. 26-11-2023: Initial release
 
