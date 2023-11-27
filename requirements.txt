@@ -132,6 +132,5 @@ webencodings==0.5.1
 websocket-client==1.6.4
 wheel==0.42.0
 widgetsnbextension==4.0.9
-xz==5.4.2==h8cc25b3_0
 zipp==3.17.0
 zlib==1.2.13==h8cc25b3_0
