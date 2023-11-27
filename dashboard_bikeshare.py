@@ -20,7 +20,7 @@ def total_users_df(df):
         'casual' : 'sum'
     })
     user_year1['yr'] = 1
-    total_users_st = user_year0.append(user_year1).sort_values(by = 'quarter')
+    total_users_st = pd.concat([user_year0, user_year1])
 
     return total_users_st, user_year0, user_year1
 
