@@ -30,5 +30,6 @@ The data analysis is made inside a Jupyter notebook with Python and additional l
 
 
 ## Changelog
-1. 26-11-2023: Initial release
+1. 27-11-2023: Added Streamlit Construction section in notebook, added dashboard_bikeshare.py file
+2. 26-11-2023: Initial release
 
