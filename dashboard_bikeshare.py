@@ -159,5 +159,5 @@ with tab2:
     rel_values = percent_st['percentage']
     lbls = [f'{p[0]} ({p[1]:.0f}%)' for p in zip(abs_values, rel_values)]
 
-    ax.bar_label(container=ax.containers[0], labels = lbls)
+    ax.bar_label(container=ax.containers[0], labels = abs_values)
     st.pyplot(fig)
